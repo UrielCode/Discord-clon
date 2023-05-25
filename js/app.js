@@ -69,7 +69,7 @@ tl2.addLabel("start")
   .fromTo('.text-gsap-2', 1, { y: '50', opacity: 0 }, { y: 0, opacity: 1 })
 
 tl3.addLabel("start")
-  .fromTo('.img-gsap-3', 0.7, { y: '10', opacity: 0 }, { y: 0, opacity: 1 })
+  .fromTo('.img-gsap-3', 0.5, { x: '-100%',opacity: 0 }, { x: 0, opacity: 1 })
   .fromTo('.text-gsap-3', 0.3, { y: '-50', opacity: 0 }, { y: 0, opacity: 1 })
 
 tl4.addLabel("start")
